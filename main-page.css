@@ -28,3 +28,31 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+
+.hmaintxt {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    background-color: grey;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.placeholder {
+    background-color: grey;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
