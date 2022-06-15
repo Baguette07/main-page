@@ -7,7 +7,8 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 530px;
 }
 
 .logo {
@@ -15,37 +16,50 @@ body {
     align-items: center;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 350px;
     align-items: center;
+    gap: 190px;
 }
 
 .hmaintxt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 4px;
+}
+
+.boldtext {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    display: flex;
-    background-color: grey;
-    margin-left: -15px;
-    flex-wrap: wrap;
-    width: 400px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 4px;
+    width: 120px;
+    border-radius: 7px;
+    border-color: #3882F6;
+    font-weight: bold;
 }
 
 .placeholder {
