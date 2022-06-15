@@ -70,3 +70,41 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.infocontainer {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.infoimg {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid;
+    border-radius: 7px; 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.infotxt {
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    width: 154px;
+}
