@@ -108,3 +108,25 @@ button {
     flex-wrap: wrap;
     width: 154px;
 }
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.quotetxt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 770px;
+}
+
+.quoteref {
+    display: flex;
+    font-weight: bold;
+    margin-right: -540px;
+}
