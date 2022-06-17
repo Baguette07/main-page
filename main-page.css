@@ -130,3 +130,44 @@ button {
     font-weight: bold;
     margin-right: -540px;
 }
+
+.ctacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 247px;
+}
+
+.ctabox {
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 110px;
+    width: 1100px;
+    border-radius: 5px;
+}
+
+.ctatxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctatitle {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ctabutton {
+    border: #F9FAF8 solid 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
